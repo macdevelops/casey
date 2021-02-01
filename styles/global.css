@@ -1,0 +1,26 @@
+@import 'animation.css';
+@import 'reset.css';
+@import 'responsive.css';
+@import 'util.css';
+@import 'variables.css';
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: var(--body);
+    color: var(--black);
+    background: var(--secondary);
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {font-family: var(--head);}
+a {text-decoration: none; color:var(--primary);}
+a:hover {text-decoration: underline; color: var(--primary);}
+button {
+    padding: var(--btnpadding);
+    border: var(--btnborder);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: .4s ease;
+}
